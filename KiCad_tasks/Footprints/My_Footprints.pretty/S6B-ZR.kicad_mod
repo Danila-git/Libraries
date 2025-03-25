@@ -103,84 +103,58 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
-		(at -3.75 1.6 180)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(roundrect_rratio 0.147059)
-		(uuid "383c8001-719e-4fbd-bb11-753bfd6bfef9")
-	)
-	(pad "2" thru_hole oval
-		(at -2.25 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "d4f8a9d0-8fc9-4bc3-975e-8ec109b2d877")
-	)
-	(pad "3" thru_hole oval
-		(at -0.75 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "44e9dc45-f379-4d6c-95d6-00fd5fc46b40")
-	)
-	(pad "4" thru_hole oval
-		(at 0.75 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "095d091d-ddac-4382-b3d0-48af7a2d77ff")
-	)
-	(pad "5" thru_hole oval
-		(at 2.25 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "ae2aea8f-1c12-430d-9605-ef6cdfd1d0c5")
-	)
-	(pad "6" thru_hole oval
+	(pad "1" thru_hole rect
 		(at 3.75 1.6)
-		(size 1 1.2)
+		(size 1.2 1.2)
 		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "26432174-d168-4936-95b6-3fd314120664")
+	)
+	(pad "2" thru_hole circle
+		(at 2.25 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ae2aea8f-1c12-430d-9605-ef6cdfd1d0c5")
+	)
+	(pad "3" thru_hole circle
+		(at 0.75 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "095d091d-ddac-4382-b3d0-48af7a2d77ff")
+	)
+	(pad "4" thru_hole circle
+		(at -0.75 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "44e9dc45-f379-4d6c-95d6-00fd5fc46b40")
+	)
+	(pad "5" thru_hole circle
+		(at -2.25 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d4f8a9d0-8fc9-4bc3-975e-8ec109b2d877")
+	)
+	(pad "6" thru_hole circle
+		(at -3.75 1.6 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "383c8001-719e-4fbd-bb11-753bfd6bfef9")
 	)
 	(model "${KICAD_MYLIBRARY}/3D_models/S6B-ZR.step"
 		(offset

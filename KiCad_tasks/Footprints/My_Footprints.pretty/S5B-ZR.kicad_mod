@@ -103,71 +103,49 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at -3 1.6 180)
-		(size 1 1.2)
+		(size 1.2 1.2)
 		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.147059)
+		(thermal_bridge_angle 90)
 		(uuid "c1efb395-172e-47da-99bd-25eb5124f42f")
 	)
-	(pad "2" thru_hole oval
-		(at -1.5 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "9281480a-20fb-4bdd-8355-2d9b1fc54cb8")
-	)
-	(pad "3" thru_hole oval
-		(at 0 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "13f8fb7a-acd0-48f0-af04-b2f8ac3a3ce6")
-	)
-	(pad "4" thru_hole oval
-		(at 1.5 1.6)
-		(size 1 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(remove_unused_layers no)
-		(uuid "6829fa2e-fe87-4549-b977-beecb10afd28")
-	)
-	(pad "5" thru_hole oval
+	(pad "1" thru_hole rect
 		(at 3 1.6)
-		(size 1 1.2)
+		(size 1.2 1.2)
 		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4d432c92-6550-4768-96a7-e638f12ee70e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6829fa2e-fe87-4549-b977-beecb10afd28")
+	)
+	(pad "3" thru_hole circle
+		(at 0 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "13f8fb7a-acd0-48f0-af04-b2f8ac3a3ce6")
+	)
+	(pad "4" thru_hole circle
+		(at -1.5 1.6)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9281480a-20fb-4bdd-8355-2d9b1fc54cb8")
 	)
 	(model "${KICAD_MYLIBRARY}/3D_models/S5B-ZR.step"
 		(offset

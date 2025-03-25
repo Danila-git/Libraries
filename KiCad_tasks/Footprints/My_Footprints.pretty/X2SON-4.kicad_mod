@@ -71,7 +71,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -0.3331 0.015) (xy -0.014903 -0.303199) (xy 0.303296 0.014999) (xy -0.014903 0.333197)
+			(xy -0.318198 0) (xy 0 -0.318198) (xy 0.318198 0) (xy 0 0.318198)
 		)
 		(stroke
 			(width 0)
@@ -79,11 +79,11 @@
 		)
 		(fill solid)
 		(layer "F.Paste")
-		(uuid "835ade94-649a-4f96-b4bd-994b0b269b03")
+		(uuid "e7270816-0a01-4943-90df-7de4ce82df5b")
 	)
 	(fp_poly
 		(pts
-			(xy -0.67 -0.415) (xy -0.27 -0.415) (xy -0.27 -0.385) (xy -0.45 -0.205) (xy -0.67 -0.205)
+			(xy -0.64 -0.445) (xy -0.24 -0.445) (xy -0.24 -0.415) (xy -0.42 -0.235) (xy -0.64 -0.235)
 		)
 		(stroke
 			(width 0)
@@ -95,7 +95,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.67 0.445) (xy -0.27 0.445) (xy -0.27 0.415) (xy -0.45 0.235) (xy -0.67 0.235)
+			(xy -0.64 0.445) (xy -0.24 0.445) (xy -0.24 0.415) (xy -0.42 0.235) (xy -0.64 0.235)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +107,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0.64 -0.415) (xy 0.24 -0.415) (xy 0.24 -0.385) (xy 0.42 -0.205) (xy 0.64 -0.205)
+			(xy 0.64 -0.445) (xy 0.24 -0.445) (xy 0.24 -0.415) (xy 0.42 -0.235) (xy 0.64 -0.235)
 		)
 		(stroke
 			(width 0)
@@ -130,10 +130,10 @@
 		(uuid "8c87a95c-3d65-4337-8cad-52b9e93e78d2")
 	)
 	(fp_circle
-		(center -0.98 -0.32)
-		(end -0.89456 -0.32)
+		(center -1.06 -0.32)
+		(end -0.86 -0.32)
 		(stroke
-			(width 0.1)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
@@ -142,7 +142,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.3543 0.015) (xy -0.014889 -0.324412) (xy 0.324522 0.015) (xy -0.014889 0.354411)
+			(xy -0.339411 -0.000589) (xy 0 -0.34) (xy 0.339411 -0.000589) (xy 0 0.338822)
 		)
 		(stroke
 			(width 0)
@@ -150,11 +150,11 @@
 		)
 		(fill solid)
 		(layer "F.Mask")
-		(uuid "7a90cede-4113-4e5f-aa1a-76173ec00966")
+		(uuid "42e855f3-b3bd-4748-ba6c-2bc9c2e71eff")
 	)
 	(fp_poly
 		(pts
-			(xy -0.445 -0.205) (xy -0.625 -0.205) (xy -0.625 -0.415) (xy -0.265 -0.415) (xy -0.265 -0.385)
+			(xy -0.415 -0.235) (xy -0.595 -0.235) (xy -0.595 -0.445) (xy -0.235 -0.445) (xy -0.235 -0.415)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +166,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.445 0.235) (xy -0.625 0.235) (xy -0.625 0.445) (xy -0.265 0.445) (xy -0.265 0.415)
+			(xy -0.415 0.235) (xy -0.595 0.235) (xy -0.595 0.445) (xy -0.235 0.445) (xy -0.235 0.415)
 		)
 		(stroke
 			(width 0)
@@ -178,7 +178,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0.415 -0.205) (xy 0.595 -0.205) (xy 0.595 -0.415) (xy 0.235 -0.415) (xy 0.235 -0.385)
+			(xy 0.415 -0.235) (xy 0.595 -0.235) (xy 0.595 -0.445) (xy 0.235 -0.445) (xy 0.235 -0.415)
 		)
 		(stroke
 			(width 0)
@@ -212,8 +212,8 @@
 		(uuid "72994735-b9cd-42b3-9e9a-a4063c0fb865")
 	)
 	(fp_line
-		(start -0.13 -0.47)
-		(end -0.5 -0.1)
+		(start -0.13 -0.49)
+		(end -0.5 -0.12)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -222,8 +222,8 @@
 		(uuid "15935b70-43e9-4469-9063-c048e0326d96")
 	)
 	(fp_rect
-		(start -0.5 -0.47)
-		(end 0.5 0.51)
+		(start -0.5 -0.49)
+		(end 0.5 0.49)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -244,7 +244,7 @@
 		)
 	)
 	(pad "1" smd custom
-		(at -0.485 -0.325 180)
+		(at -0.455 -0.355 180)
 		(size 0.148492 0.148492)
 		(layers "F.Cu")
 		(zone_connect 2)
@@ -265,7 +265,7 @@
 		(uuid "bbafc991-4e42-4ad6-9865-5867403d2648")
 	)
 	(pad "2" smd custom
-		(at -0.485 0.355)
+		(at -0.455 0.355)
 		(size 0.148492 0.148492)
 		(layers "F.Cu")
 		(zone_connect 2)
@@ -307,7 +307,7 @@
 		(uuid "2b8ca35f-03b9-4152-8bd4-d0db99e15993")
 	)
 	(pad "4" smd custom
-		(at 0.455 -0.325 180)
+		(at 0.455 -0.355 180)
 		(size 0.148492 0.148492)
 		(layers "F.Cu")
 		(zone_connect 2)
@@ -327,26 +327,12 @@
 		)
 		(uuid "e6fb1584-e559-4b4f-96a1-4128d9350294")
 	)
-	(pad "5" smd custom
-		(at 0 0)
-		(size 0.148492 0.148492)
+	(pad "6" smd rect
+		(at 0 0 45)
+		(size 0.58 0.58)
 		(layers "F.Cu")
-		(zone_connect 2)
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -0.425 0.015) (xy -0.014878 -0.395122) (xy 0.395244 0.015) (xy -0.014878 0.425122)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "a496c447-8b1d-423a-93e2-264f1872b0a9")
+		(thermal_bridge_angle 45)
+		(uuid "1f465657-68d1-4aa5-b91c-c2de684e0b13")
 	)
 	(model "${KICAD_MYLIBRARY}/3D_models/DQN0004A.stp"
 		(offset
