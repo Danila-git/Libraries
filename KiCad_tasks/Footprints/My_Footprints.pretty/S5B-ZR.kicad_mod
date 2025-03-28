@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "S5B-ZR"
-		(at 0 3.94 0)
+		(at 0 3.68 0)
 		(unlocked yes)
 		(layer "User.9")
 		(uuid "0857c813-3fef-477c-a7eb-96026e46c40f")
@@ -103,17 +103,8 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at -3 1.6 180)
-		(size 1.2 1.2)
-		(drill 0.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 90)
-		(uuid "c1efb395-172e-47da-99bd-25eb5124f42f")
-	)
 	(pad "1" thru_hole rect
-		(at 3 1.6)
+		(at -3 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -121,7 +112,7 @@
 		(uuid "4d432c92-6550-4768-96a7-e638f12ee70e")
 	)
 	(pad "2" thru_hole circle
-		(at 1.5 1.6)
+		(at -1.5 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -130,7 +121,7 @@
 		(uuid "6829fa2e-fe87-4549-b977-beecb10afd28")
 	)
 	(pad "3" thru_hole circle
-		(at 0 1.6)
+		(at 0 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -139,7 +130,7 @@
 		(uuid "13f8fb7a-acd0-48f0-af04-b2f8ac3a3ce6")
 	)
 	(pad "4" thru_hole circle
-		(at -1.5 1.6)
+		(at 1.5 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -147,15 +138,24 @@
 		(thermal_bridge_angle 90)
 		(uuid "9281480a-20fb-4bdd-8355-2d9b1fc54cb8")
 	)
-	(model "${KICAD_MYLIBRARY}/3D_models/S5B-ZR.step"
+	(pad "5" thru_hole circle
+		(at 3 -1.6 180)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c1efb395-172e-47da-99bd-25eb5124f42f")
+	)
+	(model "${KICAD_MY_ELEMENTS}/3D_models/S5B-ZR.step"
 		(offset
-			(xyz 3 -1.5 0)
+			(xyz -3 1.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 90)
 		)
 	)
 )

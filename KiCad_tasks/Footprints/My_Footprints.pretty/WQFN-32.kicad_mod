@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "WQFN-32"
-		(at 0 3.57 0)
+		(at 0 3.33 0)
 		(unlocked yes)
 		(layer "User.9")
 		(uuid "4914be71-9d2d-44be-abaf-408f4a5cd6fb")

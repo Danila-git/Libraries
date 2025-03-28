@@ -104,7 +104,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 3.75 1.6)
+		(at -3.75 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -112,7 +112,7 @@
 		(uuid "26432174-d168-4936-95b6-3fd314120664")
 	)
 	(pad "2" thru_hole circle
-		(at 2.25 1.6)
+		(at -2.25 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -121,7 +121,7 @@
 		(uuid "ae2aea8f-1c12-430d-9605-ef6cdfd1d0c5")
 	)
 	(pad "3" thru_hole circle
-		(at 0.75 1.6)
+		(at -0.75 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -130,7 +130,7 @@
 		(uuid "095d091d-ddac-4382-b3d0-48af7a2d77ff")
 	)
 	(pad "4" thru_hole circle
-		(at -0.75 1.6)
+		(at 0.75 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -139,7 +139,7 @@
 		(uuid "44e9dc45-f379-4d6c-95d6-00fd5fc46b40")
 	)
 	(pad "5" thru_hole circle
-		(at -2.25 1.6)
+		(at 2.25 -1.6)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -148,7 +148,7 @@
 		(uuid "d4f8a9d0-8fc9-4bc3-975e-8ec109b2d877")
 	)
 	(pad "6" thru_hole circle
-		(at -3.75 1.6 180)
+		(at 3.75 -1.6 180)
 		(size 1.2 1.2)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -156,7 +156,7 @@
 		(thermal_bridge_angle 90)
 		(uuid "383c8001-719e-4fbd-bb11-753bfd6bfef9")
 	)
-	(model "${KICAD_MYLIBRARY}/3D_models/S6B-ZR.step"
+	(model "${KICAD_MY_ELEMENTS}/3D_models/S6B-ZR.step"
 		(offset
 			(xyz 3.75 -1.5 0)
 		)
