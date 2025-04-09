@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -16.51 30.48 0)
+			(at -15.24 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "DRV8320S"
-			(at -12.7 27.94 0)
+			(at -11.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "My_Footprints:WQFN-32"
-			(at 0 -39.37 0)
+			(at 0 -40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -20.32 -20.32 0)
+			(at -22.86 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,16 @@
 			)
 		)
 		(property "Description" ""
-			(at -20.32 -20.32 0)
+			(at -22.86 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DRV8320S DRV8320"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +60,8 @@
 		)
 		(symbol "DRV8320S_0_1"
 			(rectangle
-				(start -17.78 25.4)
-				(end 17.78 -22.86)
+				(start -15.24 35.56)
+				(end 15.24 -35.56)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -62,53 +71,9 @@
 				)
 			)
 		)
-		(symbol "DRV8320S_1_0"
-			(text "Control Inputs\n"
-				(at -10.922 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Fault Output\n"
-				(at 11.176 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Gate Driver"
-				(at 17.78 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "Gate Driver\n"
-				(at 17.78 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "SPI\n"
-				(at -16.002 -9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
 		(symbol "DRV8320S_1_1"
 			(pin passive line
-				(at -20.32 15.24 0)
+				(at -17.78 20.32 0)
 				(length 2.54)
 				(name "CPH"
 					(effects
@@ -126,7 +91,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 2.54 180)
+				(at 17.78 5.08 180)
 				(length 2.54)
 				(name "GLB"
 					(effects
@@ -144,7 +109,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 5.08 180)
+				(at 17.78 7.62 180)
 				(length 2.54)
 				(name "SHB"
 					(effects
@@ -162,7 +127,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 7.62 180)
+				(at 17.78 10.16 180)
 				(length 2.54)
 				(name "GHB"
 					(effects
@@ -180,7 +145,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -7.62 180)
+				(at 17.78 -5.08 180)
 				(length 2.54)
 				(name "GHC"
 					(effects
@@ -198,7 +163,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -10.16 180)
+				(at 17.78 -7.62 180)
 				(length 2.54)
 				(name "SHC"
 					(effects
@@ -216,7 +181,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -12.7 180)
+				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "GLC"
 					(effects
@@ -234,7 +199,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -15.24 180)
+				(at 17.78 -12.7 180)
 				(length 2.54)
 				(name "SLC"
 					(effects
@@ -252,7 +217,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -20.32 180)
+				(at -17.78 -22.86 0)
 				(length 2.54)
 				(name "nFAULT"
 					(effects
@@ -270,7 +235,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -15.24 0)
+				(at -17.78 -25.4 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -288,7 +253,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -12.7 0)
+				(at -17.78 -27.94 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -306,7 +271,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 17.78 0)
+				(at -17.78 25.4 0)
 				(length 2.54)
 				(name "VCP"
 					(effects
@@ -324,7 +289,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -17.78 0)
+				(at -17.78 -30.48 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -342,7 +307,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -20.32 0)
+				(at -17.78 -33.02 0)
 				(length 2.54)
 				(name "nSCS"
 					(effects
@@ -360,7 +325,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 7.62 0)
+				(at -17.78 5.08 0)
 				(length 2.54)
 				(name "ENABLE"
 					(effects
@@ -378,7 +343,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -25.4 90)
+				(at 17.78 -22.86 180)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -396,7 +361,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 27.94 270)
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -414,7 +379,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 5.08 0)
+				(at -17.78 0 0)
 				(length 2.54)
 				(name "INHA"
 					(effects
@@ -432,7 +397,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 2.54 0)
+				(at -17.78 -2.54 0)
 				(length 2.54)
 				(name "INLA"
 					(effects
@@ -450,7 +415,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 0 0)
+				(at -17.78 -7.62 0)
 				(length 2.54)
 				(name "INHB"
 					(effects
@@ -468,7 +433,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -2.54 0)
+				(at -17.78 -10.16 0)
 				(length 2.54)
 				(name "INLB"
 					(effects
@@ -486,7 +451,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -5.08 0)
+				(at -17.78 -15.24 0)
 				(length 2.54)
 				(name "INHC"
 					(effects
@@ -504,7 +469,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 20.32 0)
+				(at -17.78 30.48 0)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -522,7 +487,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -7.62 0)
+				(at -17.78 -17.78 0)
 				(length 2.54)
 				(name "INLC"
 					(effects
@@ -540,7 +505,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -25.4 90)
+				(at 17.78 -27.94 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -558,7 +523,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 12.7 0)
+				(at -17.78 15.24 0)
 				(length 2.54)
 				(name "CPL"
 					(effects
@@ -576,8 +541,8 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -25.4 90)
-				(length 2.54) hide
+				(at 17.78 -33.02 180)
+				(length 2.54)
 				(name "PAD"
 					(effects
 						(font
@@ -594,7 +559,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 22.86 180)
+				(at 17.78 30.48 180)
 				(length 2.54)
 				(name "VDRAIN"
 					(effects
@@ -612,7 +577,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 20.32 180)
+				(at 17.78 25.4 180)
 				(length 2.54)
 				(name "GHA"
 					(effects
@@ -630,7 +595,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 17.78 180)
+				(at 17.78 22.86 180)
 				(length 2.54)
 				(name "SHA"
 					(effects
@@ -648,7 +613,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 15.24 180)
+				(at 17.78 20.32 180)
 				(length 2.54)
 				(name "GLA"
 					(effects
@@ -666,7 +631,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 12.7 180)
+				(at 17.78 17.78 180)
 				(length 2.54)
 				(name "SLA"
 					(effects
@@ -684,7 +649,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 0 180)
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "SLB"
 					(effects
@@ -733,7 +698,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/TLV774"
-			(at 0 15.24 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,8 +706,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "chip, 300mA, 4-pin"
+		(property "Description" "TLV774 300mA, Small-Size, High-PSRR, Low-Dropout Regulator With Enable"
 			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "TLV774 TLV "
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +838,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.43 16.51 0)
+			(at -12.7 17.78 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -872,15 +846,15 @@
 			)
 		)
 		(property "Value" "UCC21231ADLGR"
-			(at -2.54 13.97 0)
+			(at -3.81 15.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "My_Footprints:WSON13_DLG_TEX"
-			(at 0 -20.32 0)
+		(property "Footprint" "My_Footprints:WSON-13"
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,8 +863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "UCC21231ADLGR"
-			(at 0 -17.78 0)
+		(property "Datasheet" "https://www.ti.com/product/UCC21231"
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,8 +873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -20.32 6.35 0)
+		(property "Description" "UCC21231 4A Source, 6A Sink, High-Speed, Dual-Channel Isolated Gate Driver in Low-Profile SON Package"
+			(at -2.54 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +882,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "PUCC21231ADLGR"
+		(property "ki_keywords" "UCC21231ADLGR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -918,57 +892,9 @@
 			)
 		)
 		(symbol "UCC21231ADLGR_0_1"
-			(polyline
-				(pts
-					(xy -12.7 -13.97) (xy 12.7 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 11.43) (xy -12.7 -13.97)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -13.97) (xy 12.7 11.43)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 11.43) (xy -12.7 11.43)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_out line
-				(at -20.32 6.35 0)
-				(length 7.62)
+				(at -15.24 7.62 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -985,8 +911,8 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -1.27 180)
-				(length 7.62)
+				(at 15.24 -5.08 180)
+				(length 2.54)
 				(name "VDDB"
 					(effects
 						(font
@@ -1003,8 +929,8 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 1.27 180)
-				(length 7.62)
+				(at 15.24 5.08 180)
+				(length 2.54)
 				(name "VSSA"
 					(effects
 						(font
@@ -1021,8 +947,8 @@
 				)
 			)
 			(pin output line
-				(at 20.32 3.81 180)
-				(length 7.62)
+				(at 15.24 7.62 180)
+				(length 2.54)
 				(name "OUTA"
 					(effects
 						(font
@@ -1039,8 +965,8 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 6.35 180)
-				(length 7.62)
+				(at 15.24 10.16 180)
+				(length 2.54)
 				(name "VDDA"
 					(effects
 						(font
@@ -1057,8 +983,8 @@
 				)
 			)
 			(pin input line
-				(at -20.32 3.81 0)
-				(length 7.62)
+				(at -15.24 5.08 0)
+				(length 2.54)
 				(name "INA"
 					(effects
 						(font
@@ -1075,8 +1001,8 @@
 				)
 			)
 			(pin input line
-				(at -20.32 1.27 0)
-				(length 7.62)
+				(at -15.24 2.54 0)
+				(length 2.54)
 				(name "INB"
 					(effects
 						(font
@@ -1093,8 +1019,8 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -1.27 0)
-				(length 7.62)
+				(at -15.24 0 0)
+				(length 2.54)
 				(name "VCCI"
 					(effects
 						(font
@@ -1111,8 +1037,8 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -3.81 0)
-				(length 7.62)
+				(at -15.24 -2.54 0)
+				(length 2.54)
 				(name "EN"
 					(effects
 						(font
@@ -1129,8 +1055,8 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -6.35 0)
-				(length 7.62)
+				(at -15.24 -5.08 0)
+				(length 2.54)
 				(name "DT"
 					(effects
 						(font
@@ -1147,8 +1073,8 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 -8.89 180)
-				(length 7.62)
+				(at -15.24 -7.62 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -1165,8 +1091,8 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 -6.35 180)
-				(length 7.62)
+				(at 15.24 -10.16 180)
+				(length 2.54)
 				(name "VSSB"
 					(effects
 						(font
@@ -1183,8 +1109,8 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -3.81 180)
-				(length 7.62)
+				(at 15.24 -7.62 180)
+				(length 2.54)
 				(name "OUTB"
 					(effects
 						(font
@@ -1198,6 +1124,20 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "UCC21231ADLGR_1_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)

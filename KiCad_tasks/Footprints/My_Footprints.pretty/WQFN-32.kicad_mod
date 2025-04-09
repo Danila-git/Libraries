@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "33-pin WQFN package measuring 7,1x7,1 mm with a 0.5 mm pitch.")
+	(tags "WQFN-32 WQFN")
 	(property "Reference" "REF**"
 		(at 0 -3.46 0)
 		(unlocked yes)

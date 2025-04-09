@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "5-pin X2SON package measuring 1,05x1,05 mm ")
+	(tags "X2SON-4 X2SON")
 	(property "Reference" "Ref**"
 		(at 0 -1.15 0)
 		(unlocked yes)
